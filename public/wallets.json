@@ -1,0 +1,42 @@
+[
+     {
+      "id": 0,
+      "img": "https://i.ibb.co/RjnmZv2/arbitrum.png",
+      "wallet_name": "Arbitrum Rinkeby"
+   },
+   {
+      "id": 1,
+      "img": "https://i.ibb.co/KK6yjZN/avalanche.png",
+      "wallet_name": "Avalanche Fuji"
+   },
+   {
+      "id": 2,
+      "img": "https://i.ibb.co/RB7LVtS/bsc.png",
+      "wallet_name": "BNB Chain Testnet"
+   },
+   {
+      "id": 3,
+      "img": "https://i.ibb.co/tsWQr35/ethereum.png",
+      "wallet_name": "Ethereum Rinkeby"
+   },
+   {
+      "id": 4,
+      "img": "https://i.ibb.co/wdnfYM9/fantom.png",
+      "wallet_name": "Fantom Testnet"
+   },
+   {
+      "id": 5,
+      "img": "https://i.ibb.co/hctRW87/harmony.png",
+      "wallet_name": "Harmony Testnet"
+   },
+   {
+      "id": 6,
+      "img": "https://i.ibb.co/R3JHtPC/poa.png",
+      "wallet_name": "POA Network Sokol "
+   },
+   {
+      "id": 7,
+      "img": "https://i.ibb.co/Qfn7sqQ/polygon.png",
+      "wallet_name": "Polygon Mumbai"
+   }
+]

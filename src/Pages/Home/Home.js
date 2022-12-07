@@ -88,6 +88,7 @@ const Home = () => {
                         onChange={onChange}
                      />
                   </div>
+                  <button type="submit" className="cursor-pointer text-[13px] rounded-[3px] py-[10px] px-[15px] bg-primary text-secondary font-semibold  capitalize hover:bg-opacity-70 duration-1000" disabled={!verified}>send request</button>
                </form>
             </div>
          </div>

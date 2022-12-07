@@ -20,7 +20,7 @@ const Navbar = () => {
 
    return (
       <>
-         <nav className="px-[30px] flex justify-between h-[79px] items-center  ">
+         <nav className="px-[30px] flex justify-between h-[78px] items-center  ">
             <div>
                <Link to='/'><h2 className="text-primary text-2xl font-bold  ">Faucets</h2></Link>
             </div>

@@ -1,9 +1,10 @@
 import React from 'react';
+import NoticeTitle from './NoticeTitle/NoticeTitle';
 
 const Home = () => {
    return (
-      <div>
-         <h1>This is a home page</h1>
+      <div className=''>
+         <NoticeTitle></NoticeTitle>
       </div>
    );
 };

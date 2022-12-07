@@ -22,7 +22,7 @@ const Navbar = () => {
       <>
          <nav className="px-[30px] flex justify-between h-[79px] items-center  ">
             <div>
-               <h2 className="text-primary text-2xl font-bold  ">Faucets</h2>
+               <Link to='/'><h2 className="text-primary text-2xl font-bold  ">Faucets</h2></Link>
             </div>
             <div className="flex items-center gap-3">
                <div className="">

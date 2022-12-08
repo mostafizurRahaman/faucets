@@ -53,14 +53,14 @@ const Home = () => {
                <div className="flex w-full p-[10px] text-accent  items-center justify-start gap-2 bg-warning ">
                   <AiFillWarning className="text-xl text-primary "></AiFillWarning>
                   <p className="text-sm ">
-                     Your wallet is connected to
-                     <span className="text-accent font-bold  ">
+                     Your wallet is connected to 
+                     <span className="text-accent font-bold  ml-1">
                         {selectedWallet.wallet_name
                            ? selectedWallet.wallet_name
                            : "Ethereum Kovan"}
                      </span>
-                     , so you are requesting
-                     <span className="text-accent font-bold  ">
+                     , so you are requesting 
+                     <span className="text-accent font-bold ml-1 ">
                         {selectedWallet.wallet_name
                            ? selectedWallet.wallet_name
                            : "Ethereum Kovan"}

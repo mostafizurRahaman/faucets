@@ -20,7 +20,7 @@ const Navbar = () => {
 
    return (
       <>
-         <nav className="px-[30px] flex justify-between h-[78px] items-center  ">
+         <nav className="px-[30px] flex justify-between h-[78px] items-center z-50">
             <div>
                <Link to='/'><h2 className="text-primary text-2xl font-bold  ">Faucets</h2></Link>
             </div>
@@ -48,7 +48,7 @@ const Navbar = () => {
                      <MdOutlineKeyboardArrowDown></MdOutlineKeyboardArrowDown>
 
                      <div
-                        className={`absolute shadow-lg  w-[250px] p-[10px] bg-white  text-sm font-light border border-gray-200 rounded ${
+                        className={` z-50 absolute shadow-lg  w-[250px] p-[10px] bg-white  text-sm font-light border border-gray-200 rounded ${
                            showWalletMenu
                               ? " top-[50px] right-0 "
                               : "top-[-999px]  hidden"
@@ -89,7 +89,7 @@ const Navbar = () => {
                >
                   <CgProfile className="text-[25px]"></CgProfile>
                   <div
-                     className={`flex gap-1 absolute   w-[140px] px-[10px] py-[7px] border border-gray-100 shadow-md flex-col bg-white ${
+                     className={`z-50 flex gap-1 absolute   w-[140px] px-[10px] py-[7px] border border-gray-100 shadow-md flex-col bg-white ${
                         showMenu
                            ? " right-0 top-[50px]"
                            : "right-0 top-[-999px]"

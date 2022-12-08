@@ -8,7 +8,7 @@ const FQA = () => {
          </h2>
          <div
             tabIndex={0}
-            className="collapse collapse-arrow border w-[90%] md:w-[65%]"
+            className="collapse collapse-arrow border w-[90%] md:w-[65%] "
          >
             <div className="collapse-title text-[17px] m-0  font-semibold  py-[15px] px-[9px] ">
                What is a blockchain oracle ?

@@ -127,8 +127,8 @@ const Home = () => {
                      Request History
                   </h2>
                   <div className="flex items-center justify-start gap-[10px]">
-                     <button className={`cursor-pointer text-[13px] rounded-[3px] py-[10px] px-[15px] bg-waring     capitalize ${showTable && "bg-blue-500 text-secondary "} ` } onClick={()=> setShowTable(true)}>ETH Transaction History</button>
-                     <button className={`cursor-pointer text-[13px] rounded-[3px] py-[10px] px-[15px]     capitalize bg-warning ${showTable || 'bg-blue-500 text-secondary '} ` } onClick={()=> setShowTable(false)}>ETH Transaction History</button>
+                     <button className={`cursor-pointer text-[13px] rounded-[3px] py-[10px] px-[15px] bg-waring     capitalize ${showTable && "bg-blue-600 text-secondary "} ` } onClick={()=> setShowTable(true)}>ETH Transaction History</button>
+                     <button className={`cursor-pointer text-[13px] rounded-[3px] py-[10px] px-[15px]     capitalize bg-warning ${showTable || 'bg-blue-600 text-secondary '} ` } onClick={()=> setShowTable(false)}>TestLink Transaction History</button>
                   </div>
                   <div className="mt-[10px] w-full  ">
                      {

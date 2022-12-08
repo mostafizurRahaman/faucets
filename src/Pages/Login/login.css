@@ -1,0 +1,20 @@
+.faucets_form input{
+   border: none; 
+   border-bottom: 1px solid #000;
+   padding: 9px 0px;
+   font-size: 14px;
+   outline: none;
+
+}
+
+.faucets_form{
+   box-shadow: 1px 1px 6px rgba(221, 221, 221, 0.68) , -1px -1px 6px rgba(221, 221, 221, 0.516);  
+   margin: 0 auto;
+   margin: 10px 0px;
+}
+
+.faucets_form input::placeholder{
+   text-transform: capitalize;
+   font-size: 14px;
+   color: rgb(164, 160, 160);
+}

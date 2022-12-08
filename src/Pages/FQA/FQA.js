@@ -1,9 +1,12 @@
 import React from "react";
+import useTitle from "../../hooks/useTitle";
 
 const FQA = () => {
+   // title change hook 
+   useTitle('FQA'); 
    return (
       <div className="flex items-center justify-center flex-col gap-[10px] mb-5  ">
-         <h2 className="text-[30px] font-semibold capitalize mt-[30px] mb-5 text-primary ">
+         <h2 className="px-5 text-[30px] font-semibold capitalize mt-[30px] mb-5 text-primary ">
             Frequently asked questions
          </h2>
          <div

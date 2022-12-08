@@ -5,6 +5,7 @@ import {FaInstagram, FaFacebook} from 'react-icons/fa';
 import {CgGoogle} from 'react-icons/cg'; 
 import {AiFillEye} from 'react-icons/ai'; 
 import {AiFillEyeInvisible} from 'react-icons/ai'; 
+import useTitle from "../../hooks/useTitle";
 
 const Login = () => {
    const [show, setShow] = useState(false); 
@@ -17,6 +18,8 @@ const Login = () => {
       const password = form.password.value; 
       console.log({email, password}); 
    }
+   // title change hook
+   useTitle("Login"); 
    return (
       <div className="min-h-[80vh] flex items-center justify-center  bg-warning px-5">
          <div className="sm:w-4/5 lg:w-[30%] w-full shadow-lg p-[20px] faucets_form bg-white ">

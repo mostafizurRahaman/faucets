@@ -5,6 +5,7 @@ import { WalletContext } from "../../Context/WalletContextProvider";
 import ReCAPTCHA from "react-google-recaptcha";
 import Tabel from "../../Components/Table/Tabel";
 import './Home.css'; 
+import useTitle from "../../hooks/useTitle";
 const Home = () => {
    const { selectedWallet } = useContext(WalletContext);
    const [verified, setVerifed] = useState(false);
@@ -34,6 +35,9 @@ const Home = () => {
          .then((data) => setSecondTableData(data))
          .catch((err) => console.log(err));
    }, []);
+
+   // use title 
+   useTitle('Home'); 
 
    return (
       <div className="">

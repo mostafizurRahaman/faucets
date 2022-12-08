@@ -18,7 +18,7 @@ const Login = () => {
       console.log({email, password}); 
    }
    return (
-      <div className="min-h-[80vh] flex items-center justify-center  bg-warning">
+      <div className="min-h-[80vh] flex items-center justify-center  bg-warning px-5">
          <div className="sm:w-4/5 lg:w-[30%] w-full shadow-lg p-[20px] faucets_form bg-white ">
              <h2 className="text-[30px] mb-5 text-center  font-semibold  capitalize">Login</h2>
             <form className="flex flex-col gap-[10px]   " onSubmit={handleSubmit}>
@@ -64,7 +64,7 @@ const Login = () => {
                <div>
                   <p className="text-[13px] font-semibold text-center ">
                      Don't have an account??{" "}
-                     <Link className="text-primary ">SignUp</Link>
+                     <Link to='/register' className="text-primary ">SignUp</Link>
                   </p>
                </div>
                <div>
